@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    top:0px;
+    /* 절대위치 */
+    left:0px;
+    height:60px;
+    width:100%;
+    position:sticky;
+}
+
+nav {
+    background-color:blue;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+/* ex: nav a:hover i2 공백-> 전체 i2 하위 검색 */
+nav a:hover, nav li:hover {
+    background-color: aliceblue;
+    color: blue
+}
+
+nav a:active {
+    color: red
+}
+
+nav li {
+    display: inline-flex; 
+    width : 150px;
+    height : 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    background-color: aliceblue;
+    margin: 50px;
+    padding: 20px;
+    width: 80%;
+}
+
+article>ul {
+    width : 500px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    margin: 100px;
+}
+
+
+#a0 img {
+    width:250px;
+    border-radius : 50%;
+}
+
+#a2 {
+    background-color: lavender;
+}
+
+ul {
+    margin: 20px
+}
+
+.c2 {
+    background-color: aquamarine;
+}
+
+.c2>h1 {
+    color: blue;
+}
+
+.c2>ul>li {
+    color: green;
+}
+
+/* .c3 > ul > li 아래와 동일 {} ctrl+/ (주석) shift + alt + f (정렬) */
+.c1>li {
+    color: aqua;
+}
