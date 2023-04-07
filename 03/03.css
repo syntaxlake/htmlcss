@@ -12,6 +12,7 @@ header {
 }
 
 nav {
+    font-family: 'Black Han Sans', sans-serif;
     background-color:blue;
     height: 60px;
     display: flex;
@@ -42,6 +43,7 @@ nav li {
     background-color: blue;
 }
 
+
 main {
     display: flex;
     flex-direction: column;
@@ -64,10 +66,31 @@ article>ul {
 
 }
 
+.iconsp {
+    display : inline-flex;
+    justify-content : center;
+    align-items : center;
+    width: 100px;
+    height: 100px;
+}
+
+
 h1 {
     margin: 100px;
 }
 
+#nav-img001 {
+    color:blue
+}
+#nav-img002 {
+    color:blue
+}
+#nav-img003 {
+    color:blue
+}
+#nav-img004 {
+    color:blue
+}
 
 #a0 img {
     width:250px;

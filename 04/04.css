@@ -1,0 +1,35 @@
+#a1 {
+display : flex
+}
+
+#a2 {
+display : flex
+}
+
+#a3 {
+display : flex
+}
+
+#a4 {
+display : flex    
+}
+
+#a1 img {
+    width:250px;
+    border-radius : 50%;
+}
+
+#a2 img {
+    width:250px;
+    border-radius : 50%;
+}
+
+#a3 img {
+    width:250px;
+    border-radius : 50%;
+}
+
+#a4 img {
+    width:250px;
+    border-radius : 50%;
+}
