@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html data-theme="light"></data-theme>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,41 +10,62 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>유동수 자기소개 페이지</title>
 </head>
-<body>
-    <header>
-            <nav aria-label="breadcrumb">
-                <ul>
-                    <li><span id = "nav-img001" class="material-symbols-outlined">clock_loader_10</span><a href="#a1">개인정보</a></li>
-                    <li><span id = "nav-img001" class="material-symbols-outlined">clock_loader_40</span><a href="#">학력사항</a></li>
-                    <li><span id = "nav-img003" class="material-symbols-outlined">clock_loader_60</span><a href="#">자격증</a></li>
-                    <li><span id = "nav-img004" class="material-symbols-outlined">clock_loader_80</span><a href="#">사용가능언어</a></li>
-                    <li>Page</li>
-                </ul>
-            </nav>
+<body> 
+        <div class="headermain" data-theme="light">
+          <nav class="fluid nav bar">
+            <ul>
+              <li>
+                <a href="./" class="contrast" onclick="event.preventDefault()"
+                  ><strong><span style="background-color: bisque;">K-digital Training 3기 유동수</span></strong></a
+                >
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <details role="list" dir="rtl">
+                  <summary aria-haspopup="listbox" role="link" class="contrast">링크</summary>
+                  <ul role="listbox">
+                    <li><a href="#a1">개인정보</a></li>
+                    <li><a href="#a2">경력사항</a></li>
+                    <li><a href="#a3">자격증 및 수상</a></li>
+                    <li><a href="#a4">사용가능 프로그램</a></li>
+                  </ul>
+                </details>
+            </ul>
+          </nav>
+          <header class="container">
+            <hgroup>
+              <h1></h1>
+              <h2></h2>
+            </hgroup>
+            <p><a href="../homework 4.7/yds.html" role="button" onclick="event.preventDefault()">Home</a></p>
+          </header>
+        </div>
     </header>
     <main>
                 <section>
                 </section>
-                <article id="a0" class="c1"> 
+                <article id="a1" class="c1">
+                    <details>
+                    <summary id="b1"><span id = "article-img001" class="material-symbols-outlined">clock_loader_10</span>개인정보</summary>
                     <div>
                         <img src="../img/pic.jpg" width="100px">
                     </div>
-                </article>
-                <article id="a1" class="c1">
-                    <h1> <span style="background-color: bisque;">개인정보</h1>
-                      <span><span class="material-symbols-outlined">refresh</span></span>
                     <ul>
                         <li>유동수</li>
                         <li>010-7216-1638</li>
                         <li>tephrike@nate.com</li>
-                        <li>양산시 <span style="background-color: bisque;">물금읍</span> 범어리</li>
+                        <li>양산시 물금읍 범어리</li>
                         <li>소속 : 부산대 k-digital</li>
                     </ul>
+                    </details>
                 </article>
-                <article id="a2" class="c2">
-                    <h1>경력</h1>
+                <article id="a2" class="c1">
+                    <details>
+                    <summary><span id = "article-img002" class="material-symbols-outlined">clock_loader_40</span>경력</summary>
                     <ul>
                         <li>2016 LX한국국토정보공사 - 지적 측량 및 지적 행정 인턴
                         <li>2018 GS칼텍스 - 자산 매각 및 인수 TF 법률실사 및 인허가 PM 담당</li>
@@ -56,23 +77,27 @@
                             - 제주특별자치도 공공 공간정보 좌표 DATA 활용, QGIS로 레이어 중첩 분석 
                             (ex) (렌터카 이용, 제주버스 이용, 유동인구 관련)</li> 
                     </ul>
+                    </details>
                 </article>
-                <article id="a3" class="c3">
-                    <h1>자격증 및 수상</h1>
+                <article id="a3" class="c1">
+                    <details>
+                    <summary><span id = "article-img003" class="material-symbols-outlined">clock_loader_60</span>자격증 및 수상</summary>
                     <ul>
-                        <li>2009 </li>
+                        <li>2009 전국 지리올림피아드 금상</li>
                         <li>2015 제3회 공간정보시뮬레이션 경진대회 - 공간정보창조상 - LX한국국토정보공사 </li>
-                        <li>2017 지적기사 <li>
-                        <li></li>    
+                        <li>2017 지적기사</li>
                     </ul>
+                    </details>
                 </article>
-                <article id="a4" class="c2">
-                    <h1>사용가능 프로그램</h1>
+                <article id="a4" class="c1">
+                <details>    
+                    <summary><span id = "article-img004" class="material-symbols-outlined">clock_loader_80</span>사용가능 프로그램</summary>
                     <ul>
                         <li>QGIS, ArcGIS</li>
                         <li>Blender</li>
                         <li>Tabelau</li>
                     </ul>
+                </details>
                 </article>
     </main>
             <footer>

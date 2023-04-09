@@ -1,0 +1,33 @@
+.headermain {
+    background-color: #394046;
+    background-image: url("../img/introduce.jpg");
+    background-position: center;
+    background-size: 1500px;
+  }
+.c1{
+    display:flex;
+}
+#a1{
+    display:flex;
+    background-image: url("../img/banner1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#a2{
+    background-image: url("../img/banner3.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#a3{
+    background-image: url("../img/banner1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;    
+}
+#a4{
+    background-image: url("../img/banner3.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;    
+}
+#list{
+    align-items:center1 ;
+}
