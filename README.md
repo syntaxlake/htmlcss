@@ -1,6 +1,6 @@
 # K-digital 3기 FrontEnd 수업
 + 
- 자기소개 페이지 : https://syntaxlake.github.io/htmlcss/
+ 자기소개 페이지 : https://syntaxlake.github.io/htmlcss/index.html
 
   23.04.06 : HTML 및 css 연습
   23.04.05 : HTML 및 Git 연습
