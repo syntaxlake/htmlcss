@@ -6,12 +6,15 @@
   }
 #c2{
     display:inline-flex;
-    margin-right: 200px;
+    align-items:left;
 }
 #a1{
     background-image: url("../img/banner1.jpg");
     background-repeat: no-repeat;
     background-size:cover;
+}
+#a1>ul{
+    align-items:center;
 }
 #a2{
     background-image: url("../img/banner3.jpg");
