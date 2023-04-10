@@ -4,6 +4,9 @@
     background-position: center;
     background-size: 1920px;
   }
+.c1 {
+    display:flex;
+}
 #a1{
     background-image: url("../img/banner1.jpg");
     background-repeat: no-repeat;
