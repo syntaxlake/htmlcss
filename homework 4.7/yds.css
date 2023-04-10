@@ -13,6 +13,8 @@
 }
 #c2>ul{
     width:90%;
+    justify-content: center;
+    align-items: center;
 }
 #a1{
     background-image: url("../img/banner1.jpg");
