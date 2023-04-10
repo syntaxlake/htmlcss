@@ -8,12 +8,12 @@
     display:flex;
 }
 #c2 img {
-    width:50%;
+    width:60%;
     margin-left:50px;
     border-radius: 50%;
 }
 #c3 {
-    width:50%;
+    width:40%;
     justify-content: center;
     align-items: center;
 }
@@ -21,7 +21,6 @@
     background-image: url("../img/banner1.jpg");
     background-repeat: no-repeat;
     background-size:cover;
-    display:flex;
 }
 #a2{
     background-image: url("../img/banner3.jpg");
