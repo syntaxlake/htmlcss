@@ -4,8 +4,10 @@
     background-position: center;
     background-size: 1920px;
   }
+
+
+
 #c2{
-    display:inline-flex;
     align-items:left;
     width:30%;
 }
@@ -13,9 +15,9 @@
     background-image: url("../img/banner1.jpg");
     background-repeat: no-repeat;
     background-size:cover;
+    display:flex;
 }
 #a1>ul{
-    display:inline-flex;
     align-items:center;
     width:70%;
 }
