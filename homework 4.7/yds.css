@@ -8,11 +8,12 @@
     display:flex;
 }
 #c2 img {
+    width:50%;
     margin-left:50px;
     border-radius: 50%;
 }
-#c2 ul{
-    width:90%;
+#c3 {
+    width:50%;
     justify-content: center;
     align-items: center;
 }
