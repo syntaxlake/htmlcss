@@ -5,11 +5,9 @@
     background-size: 1920px;
   }
 
-
-
 #c2{
-    align-items:left;
-    width:30%;
+    align-items:center;
+    width:10%;
 }
 #a1{
     background-image: url("../img/banner1.jpg");
@@ -19,7 +17,7 @@
 }
 #a1>ul{
     align-items:center;
-    width:70%;
+    width:90%;
 }
 #a2{
     background-image: url("../img/banner3.jpg");
